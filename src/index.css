@@ -1,0 +1,51 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente general */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0; /* MUI puede sobrescribir esto con ThemeProvider */
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Soporte para fondo del Theme */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Para evitar que los contenedores colapsen al usar MUI */
+.MuiContainer-root {
+  padding-top: 20px;
+}
+
+/* Scroll suave en toda la página */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Quitar contorno azul feo en botones */
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Mejor apariencia para tablas */
+table {
+  border-collapse: collapse;
+}
+
+/* Corrección visual de MUI en modo oscuro/claro */
+body,
+html {
+  background-color: transparent;
+}
