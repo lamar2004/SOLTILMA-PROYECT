@@ -11,8 +11,8 @@ export default function Home() {
   // Las rutas de las imágenes que proporcionaste.
   // Nota: Si estas rutas son incorrectas, las imágenes no se cargarán.
   // Las rutas relativas a 'src/' pueden requerir importaciones específicas si usas Vite/Webpack.
-  const CloudGIFL = "../src/assets/Cloud.gif";
-  const INFO_IMAGE_URL = "../src/assets/soltilmaLogoSF.png";
+  const CloudGIFL = "../images/Cloud.gif";
+  const INFO_IMAGE_URL = "../images/soltilmaLogoSF.png";
 
   // Datos basados en las imágenes del proyecto Soltima
   const tecnologias = [
