@@ -1,6 +1,6 @@
 export async function getWeatherByCoords(lat, lon) {
-  const apiKey = "303827786b854b9112cc6bb0187a70a1";
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&lang=es&appid=${apiKey}`;
+  const apiKey = "";
+  const url = ``;
 
   try {
     const res = await fetch(url);
